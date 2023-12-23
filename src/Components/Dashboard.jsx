@@ -1,7 +1,7 @@
 import React from 'react'
-import '../Styling/Leftmenu.css'
+import '../Styling/Dashboard.css'
 
-const LeftMenu = () => {
+const Dashboard = () => {
     return (
         <>
             <div className="main">
@@ -462,4 +462,4 @@ const LeftMenu = () => {
     )
 }
 
-export default LeftMenu
+export default Dashboard

@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LeftMenu from './Components/LeftMenu';
+import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      <LeftMenu/>
+      <Dashboard/>
     </div>
   );
 }
