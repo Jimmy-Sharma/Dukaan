@@ -24,7 +24,7 @@ aside {
     height: 100%;
 }
 
- .user {
+.user {
     padding: 16px 16px 20px 16px;
     display: flex;
     align-items: center;
@@ -38,20 +38,20 @@ aside {
     width: 40px;
 }
 
- .user-name {
+.user-name {
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 4px;
     color: white;
 }
 
- .user-store {
+.user-store {
     font-size: 13px;
     text-decoration: underline;
     color: #ccc;
 }
 
- .user-store:hover {
+.user-store:hover {
     font-size: 13px;
     text-decoration: underline;
     color: white;
@@ -102,7 +102,7 @@ aside {
     gap: 3px;
 }
 
- .balance {
+.balance {
     font-size: 15px;
     font-weight: 500;
     color: white;
@@ -131,18 +131,21 @@ aside {
     border-bottom: 1px solid #ccc;
 }
 
- .header-heading {
+.header-heading {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
- .heading-title {
+.heading-title {
     font-size: 25px;
-    color: #ffffff;
+    color: #1A181E;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
 }
 
- .heading-info {
+.heading-info {
     display: flex;
     gap: 6px;
     font-size: 12px;
@@ -150,15 +153,16 @@ aside {
     cursor: pointer;
 }
 
- .search-box {
+.search-box {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 16px;
+    gap: 8px;
+    padding: 16px 19px;
     width: 400px;
     border-radius: 8px;
     background-color: #f7f7f7;
     color: #71717a;
+    height: 40px;
 }
 
 .search-box input {
@@ -167,18 +171,20 @@ aside {
     background-color: transparent;
     font-family: Inter, sans-serif;
     width: 100%;
+    line-height: 22px;
+    font-size: 15px;
 }
 
- .search-box input::placeholder {
+.search-box input::placeholder {
     color: #71717a;
 }
 
- .header-actions {
+.header-actions {
     display: flex;
     gap: 10px;
 }
 
- .header-actions div {
+.header-actions div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,7 +211,7 @@ aside {
     font-weight: 500;
 }
 
- .overview-month {
+.overview-month {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -222,9 +228,11 @@ aside {
     justify-content: space-between;
     gap: 24px;
 }
-.title{
+
+.title {
     color: #ffffff;
 }
+
 .cards-card {
     padding: 24px 20px;
     background-color: white;
@@ -237,20 +245,20 @@ aside {
     position: relative;
 }
 
- .card-header {
+.card-header {
     display: flex;
     gap: 6px;
     align-items: center;
     color: #3f3f46;
 }
 
- .card-body {
+.card-body {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
- .amount {
+.amount {
     font-size: 28px;
     font-weight: 600;
 }
@@ -280,12 +288,12 @@ aside {
     height: fit-content;
 }
 
- .card-body,
- .card-header {
+.card-body,
+.card-header {
     padding: 0 20px;
 }
 
- .card-header {
+.card-header {
     display: flex;
     gap: 6px;
     font-weight: 300;
@@ -298,23 +306,25 @@ aside {
     align-items: center;
 }
 
- .amount {
+.amount {
     font-size: 28px;
     font-weight: 600;
 }
 
- .info {
+.info {
     display: flex;
     gap: 4px;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
 }
-.info-text-white{
+
+.info-text-white {
     color: white;
+    text-decoration: underline;
 }
 
- .card-next {
+.card-next {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -329,7 +339,7 @@ aside {
     padding: 0px 32px;
 }
 
- .transactions-title {
+.transactions-title {
     font-size: 20px;
     font-weight: 500;
 }
@@ -350,12 +360,14 @@ aside {
     cursor: pointer;
 }
 
- .transactions-table {
+.transactions-table {
     margin-top: 20px;
     background-color: white;
     border-radius: 6px;
     padding: 8px 10px;
-} .table-header {
+}
+
+.table-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -372,7 +384,7 @@ aside {
     color: #71717a;
 }
 
- .table-search input {
+.table-search input {
     padding: 4px 0;
     font-size: 14px;
     font-family: Inter, sans-serif;
@@ -385,12 +397,12 @@ aside {
     color: #71717a;
 }
 
- .table-actions {
+.table-actions {
     display: flex;
     gap: 20px;
 }
 
- .table-actions div {
+.table-actions div {
     display: flex;
     align-items: center;
     gap: 6px;
